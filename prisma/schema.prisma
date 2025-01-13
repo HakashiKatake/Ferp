@@ -25,3 +25,16 @@ model Video{
     updatedAt      DateTime @updatedAt
   
 }
+
+
+
+model Image {
+
+  id        Int      @id @default(autoincrement())
+
+  url       String
+
+  createdAt DateTime @default(now())
+
+}
+

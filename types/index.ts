@@ -9,3 +9,12 @@ export interface Video {
     createdAt: Date
     updatedAt: Date
 }
+
+export interface Image {
+    id: string;
+    title: string;
+    description: string;
+    url: string;
+    createdAt: string;
+    publicId: string;
+}
