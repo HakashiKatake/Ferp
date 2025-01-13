@@ -3,8 +3,8 @@ import { NextResponse } from 'next/server';
 
 
 const isPublicRoute = createRouteMatcher([
-    "/signin",
-    "/signup",
+    "/sign-in",
+    "/sign-up",
     "/",
     "/home",
 ])
@@ -32,6 +32,8 @@ export default clerkMiddleware(async (auth, req) => {
             return NextResponse.redirect(new URL("/signin", req.url))
         }
     }
+
+     
 
 
 
