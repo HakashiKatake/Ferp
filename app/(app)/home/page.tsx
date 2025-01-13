@@ -6,7 +6,7 @@ import VideoCard from '@/components/VideoCard'
 import ImageCard from '@/components/ImageCard'
 import { Video, Image } from '@/types'
 import { motion } from 'framer-motion'
-import { Video as VideoIcon, Image as ImageIcon, LogOut } from 'lucide-react'
+import { Video as VideoIcon, Image as ImageIcon, LogOut, ArrowRight, Upload, Zap, Star } from 'lucide-react'
 import { SignOutButton } from "@clerk/nextjs"
 
 function Home() {
