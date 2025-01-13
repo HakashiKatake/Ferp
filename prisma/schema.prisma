@@ -14,14 +14,14 @@ datasource db {
 }
 
 model Video{
-  id String @id @default(cuid())
-  title String
-  description String?
-  publicId String
-  originalSize String
-  compressedSize String
-  duration Float
-  createAt DateTime @default(now())
-  updateAt DateTime @updatedAt
+  id             String   @id @default(cuid())
+    title          String
+    description    String?
+    publicId       String
+    originalSize   String
+    compressedSize String
+    duration       Float
+    createdAt      DateTime @default(now())
+    updatedAt      DateTime @updatedAt
   
 }
