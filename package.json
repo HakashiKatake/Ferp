@@ -11,6 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^6.9.9",
     "@prisma/client": "^6.2.1",
+    "cloudinary": "^2.5.1",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
